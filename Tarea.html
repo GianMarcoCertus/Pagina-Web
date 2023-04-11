@@ -7,24 +7,58 @@
     <title>Tarea de Lenguaje Web N# 1</title>
     <style>
         p{font-size: 18px; font-family: Arial, Helvetica, sans-serif;}
-        div{width: 80%; margin: auto; background-color: #99b898; padding: 20px; border: 4px solid black;}
         h2{color: black;font: bold 21px arial;}
+        .socialicons a{text-decoration: none;padding: 3px;
+        background-color: white; margin: 10px; border-radius: 50%;}
+        .socialicons a i{font-size: 2em; color: black; opacity: 0.9;}
+        .socialicons a:hover{background-color: #111; transition: 0.5s;}
+        .socialicons a:hover i{color: white; transition: 0.5s;}
+        .footernav{margin: 30px 0;}
+        .footernav ul{display: flex; justify-content: center; list-style-type: none;}
+        .footernav ul li a{color: white;margin: 20px;text-decoration: none;font-size: 1.3em; opacity: 0.7; transition: 0.5s;}
+        .footernav ul li a:hover{opacity: 1;}
+        .footerbottom{background-color: #000; padding: 1px; text-align: center;}
+        .footerbottom p{color: white;}
+        .diseñador{opacity: 0.7;text-transform: uppercase; letter-spacing: 1px; font-weight: 400;margin: 0px 5px;}
     </style><!--primera forma de poner css dentro de un codigo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
 </head>
 <body style="background-color: #2a363b; border: 1px black;">
-    <div>
+    <div style="width: 80%; margin: auto; background-color: #99b898; padding: 20px; border: 4px solid black;">
         <h1 style="text-align: center; font-weight: bold; background-color: #ff847c;color: aliceblue;border: 4px black solid;border-radius: 5px;">Tarea de Lenguaje Web N# 1</h1> <!-- segunda forma de poner CSS titulo con fondo verde y un borde negro redondeado-->
-        <h2>Protocolo Http</h2><!--sub titulo = h2-->
+        <h2>1.	¿Qué es un Protocolo Http?</h2><!--sub titulo = h2-->
         <p>El Protocolo de Transferencia de HiperTexto <b><u>(Hypertext Transfer Protocol)</u></b> es un sencillo protocolo cliente-servidor que articula los intercambios de información entre los clientes Web y los servidores HTTP.</p><!--Primer parrafo-->
-        <h2>Query String</h2>
+        <h2>2.	¿Qué es un Query String?</h2>
         <p>Query string o, cadena de consulta es un término informático que se utiliza para hacer referencia a una interacción con una base de datos. Es la parte de una URL que contiene los datos que deben pasar a aplicaciones web como los programas CGI <b><u>(Interfaz de entrada común)</u>.</b></p>
-        <h2>Verbos Http</h2>
+        <h2>3.	¿Qué es un Verbos Http?</h2>
         <p>HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. Aunque estos también pueden ser sustantivos, estos métodos de solicitud a veces son llamados HTTP verbs. Cada uno de ellos implementan una semántica diferente.</p>
-        <h2>DNS</h2>
+        <h2>4.	¿Qué es un DNS?</h2>
         <p>El sistema de nombres de dominio <b><u>(DNS)</u></b> es el directorio telefónico de Internet. Las personas acceden a la información en línea a través de nombres de dominio como: <i><a href="https://www.google.com/?hl=es">Google.com</a></i></p><!--ancla para poner direccion url-->
-        <h2>CDN</h2>
+        <h2>5.	¿Qué es un CDN?</h2>
         <p>Una red de entrega de contenido <b><u>(CDN)</u></b> está formada por un grupo de servidores distribuidos geográficamente que trabajan juntos para ofrecer una entrega rápida de contenido de Internet.</p>
-        <p style="text-align: center ;"><img src="https://kinsta.com/wp-content/uploads/2020/04/code-review-tools.png" alt="code" height="40%" width="40%"></p><!--imagen cargada de u8n sitio web-->
+        <p style="text-align: center ;"><img src="https://media3.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=6c09b952c87645e85a3e707559a89b63c0dacecbf3168d99&rid=giphy.gif&ct=g" alt="code" height="30%" width="30%"></p><!--imagen cargada de u8n sitio web-->
     </div>
+    <footer style="width: 84%; margin: auto; background-color: #161616; border: 3px solid black; padding: 5px; box-sizing: border-box;">
+        <div class="footercontainer">
+            <div class="socialicons" style="display: flex; justify-content: center;">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p>Copyright ©2023; Designed by <span class="diseñador">Gmarco</span></p>
+        </div>
+    </footer>
 </body>
 </html>
